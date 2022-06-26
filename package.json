@@ -1,0 +1,22 @@
+{
+  "name": "qutubuku_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e html,js index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/jwt": "^2.1.1",
+    "bcryptjs": "^2.4.3",
+    "dayjs": "^1.11.3",
+    "firebase": "^9.8.3",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.16"
+  }
+}
